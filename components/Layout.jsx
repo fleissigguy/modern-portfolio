@@ -37,6 +37,7 @@ const Layout = ({ children }) => {
       <Header />
 
       {/* main content */}
+      
       {children}
     </main>
   );
