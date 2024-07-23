@@ -22,13 +22,13 @@ const Layout = ({ children }) => {
         <title>Super Dev | Portfolio</title>
         <meta
           name="description"
-          content="Ethan Smith is a Full-stack web developer with 10+ years of experience."
+          content="Super Dev is a Full-stack web developer with 6+ years of experience."
         />
         <meta
           name="keywords"
-          content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
+          content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect, vue, sass, nuxt, php, laravel, python, Django, C++, C#, react native, express, node, mongo DB, seinor, Frontend, backend, blockchain, web, devlopment, smart contract, DeFi, Dao, Wallet, Dex, Swap, stake, consensus, Pow, Pos, Solidity, solana, rust, web3, ethereum, NFT, ERC20, ERC721, contract, IOC, APY, swap, uniswap, transaction, trade, token, senior, developer, dev, best, top, full stack, wordpress, api,"
         />
-        <meta name="author" content="Sanidhya Kumar Verma" />
+        <meta name="author" content="Super Dev" />
         <meta name="theme-color" content="#f13024" />
       </Head>
 
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
       <Header />
 
       {/* main content */}
-      
+
       {children}
     </main>
   );
