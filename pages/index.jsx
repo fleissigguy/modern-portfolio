@@ -20,8 +20,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Senior Blockchain && <br /> Full Stack{" "}
+            <span className="text-accent">Developer</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -32,10 +32,10 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            A skilled developer with 10+ years of professional experience looking to contribute knowledge in web and
+blockchain technology. Proficient at performing well as working in a group or independently in a fast-paced
+setting. Deep understanding of distributed ledger, blockchain safety, blockchain design principles, and various
+blockchain protocols and environments.
           </motion.p>
 
           {/* btn */}
