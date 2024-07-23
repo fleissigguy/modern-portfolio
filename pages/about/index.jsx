@@ -4,16 +4,36 @@ import CountUp from "react-countup";
 import {
   FaCss3,
   FaFigma,
+  FaHardHat,
   FaHtml5,
   FaJs,
+  FaLaravel,
+  FaNodeJs,
   FaReact,
+  FaSass,
+  FaVuejs,
   FaWordpress,
 } from "react-icons/fa";
 import {
   SiAdobephotoshop,
   SiAdobexd,
+  SiAliexpress,
+  SiCloudfoundry,
+  SiDevexpress,
+  SiDjango,
+  SiEthereum,
+  SiExpress,
+  SiExpressvpn,
   SiFramer,
+  SiGo,
+  SiMongodb,
+  SiMysql,
   SiNextdotjs,
+  SiPostgresql,
+  SiRust,
+  SiSolidity,
+  SiTypescript,
+  SiWeb3Dotjs,
 } from "react-icons/si";
 
 import Avatar from "../../components/Avatar";
@@ -26,33 +46,64 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "UI/UX Design",
+        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+      },
+      {
+        title: "Frontend Skills",
         icons: [
           FaHtml5,
           FaCss3,
+          FaSass,
           FaJs,
+          SiTypescript,
           FaReact,
           SiNextdotjs,
           SiFramer,
           FaWordpress,
+          FaVuejs,
         ],
       },
       {
-        title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        title: "Backend Skills",
+        icons: [
+          FaNodeJs,
+          SiExpress,
+          FaLaravel,
+          SiDjango,
+        ],
       },
+      {
+        title: "Database Skills",
+        icons: [
+          SiMysql,
+          SiPostgresql,
+          SiMongodb,
+        ],
+      },
+      {
+        title: "Blockchain Skills",
+        icons: [
+          SiSolidity,
+          SiRust,
+          SiGo,
+          SiWeb3Dotjs,
+          SiEthereum,
+          FaHardHat,          
+        ]
+      }
     ],
   },
   {
-    title: "awards",
+    title: "Services",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Blockchain development",
+        stage: "Smart Contract Development, Decentralized Application (dApp) Development, Blockchain Integration, Tokenomics and ICO/IDO/STO Development, Blockchain Consulting, Blockchain Security Audits, NFT Development",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Full Stack development",
+        stage: "UI/UX Design, Web development, API Development and Integration, Database Design and Management",
       },
     ],
   },
@@ -60,33 +111,25 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Freelancer",
+        stage: "2023 - present",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Blockchain Developer - Pstox  Company",
+        stage: "2021 - 2022",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Full Stack Developer - ORIGINAL INTELLIGENCE SDN Company",
+        stage: "2019 - 2020",
       },
     ],
   },
   {
-    title: "credentials",
+    title: "education",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-      },
-      {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Bachelor Degree in Information Technology (Ryukoku University, Jp)",
+        stage: "2014/04 – 2018/03",
       },
     ],
   },
@@ -129,9 +172,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collabrated on digital products for business and consumer use.
+           Six years ago, I began freelancing as a blockchain and full stack developer. Since then, I've done remote work for companies, consulted for startups, and collaborated on digital products for both business and consumer use. Each project has been a unique story, weaving together the complexities of blockchain technology and full stack development to create magnificent designs. My journey is driven by the captivating narratives behind every project, transforming innovative ideas into impactful, functional, and visually stunning solutions.
           </motion.p>
 
           {/* counters */}
@@ -145,7 +186,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />
+                  <CountUp start={0} end={6} duration={6} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience.
@@ -155,7 +196,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} />
+                  <CountUp start={0} end={110} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients.
@@ -165,7 +206,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />
+                  <CountUp start={0} end={203} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects.

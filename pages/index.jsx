@@ -32,7 +32,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            A skilled developer with 10+ years of professional experience looking to contribute knowledge in web and
+            A skilled developer with 6+ years of professional experience looking to contribute knowledge in web and
 blockchain technology. Proficient at performing well as working in a group or independently in a fast-paced
 setting. Deep understanding of distributed ledger, blockchain safety, blockchain design principles, and various
 blockchain protocols and environments.
