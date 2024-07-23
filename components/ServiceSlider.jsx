@@ -16,28 +16,29 @@ import "swiper/css/pagination";
 const serviceData = [
   {
     Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Frontend development",
+    description: "Crafting responsive, intuitive, and visually appealing user interfaces using modern frameworks like React, Vue.js, and Angular",
   },
   {
     Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Backend development",
+    description: "BuildING robust, scalable, and secure server-side applications using frameworks like Node.js, Express, Django, and Ruby on Rails",
   },
   {
     Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Database Development",
+    description: "Ensuring data integrity, security, and high performance for scalable and efficient data storage and retrieval solutions with SQL and NoSQL.",
   },
+  {
+    Icon: RxDesktop,
+    title: "Blockchain development",
+    description: "Specializing in creating secure and efficient decentralized applications (dApps) and smart contracts",
+  },
+  
   {
     Icon: RxRocket,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Enhancing website visibility and organic search rankings through strategic keyword optimization and technical SEO.",
   },
 ];
 
@@ -59,7 +60,7 @@ const ServiceSlider = () => {
       }}
       modules={[FreeMode, Pagination]}
       freeMode
-      className="h-[240px] sm:h-[340px]"
+      className="h-[240px] sm:h-[360px]"
     >
       {serviceData.map((item, i) => (
         <SwiperSlide key={i}>

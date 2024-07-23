@@ -31,8 +31,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              As a blockchain and full stack developer, I specialize in creating secure, scalable, and user-friendly decentralized applications (dApps) and full stack solutions, integrating cutting-edge blockchain technology with modern web and mobile frameworks to deliver innovative and impactful digital experiences.
             </motion.p>
           </div>
 
@@ -42,7 +41,7 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full xl:max-w-[65%]"
+            className="w-full xl:max-w-[70%]"
           >
             <ServiceSlider />
           </motion.div>

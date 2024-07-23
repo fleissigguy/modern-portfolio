@@ -45,7 +45,7 @@ const Work = () => {
             <WorkSlider />
           </motion.div>
         </div>
-      </div>
+      </div>git 
       <Bulb />
     </div>
   );
