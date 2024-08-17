@@ -11,7 +11,7 @@ const Header = () => {
           {/* logo */}
           <Link href="/">
             <h3 className="text-3xl">
-              Super <i>Dev</i>
+              Suzuki Kenta
             </h3>
           </Link>
 

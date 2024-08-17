@@ -46,10 +46,6 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
-      },
-      {
         title: "Frontend Skills",
         icons: [
           FaHtml5,
@@ -103,7 +99,7 @@ export const aboutData = [
       },
       {
         title: "Full Stack development",
-        stage: "UI/UX Design, Web development, API Development and Integration, Database Design and Management",
+        stage: "Web development, API Development and Integration, Database Design and Management",
       },
     ],
   },
@@ -112,15 +108,15 @@ export const aboutData = [
     info: [
       {
         title: "Freelancer",
-        stage: "2023 - present",
+        stage: "2024/4 - present",
       },
       {
-        title: "Blockchain Developer - Pstox  Company",
-        stage: "2021 - 2022",
+        title: "Blockchain Developer - Edmonton, Canada",
+        stage: "2022/3 - 2024/4",
       },
       {
-        title: "Full Stack Developer - ORIGINAL INTELLIGENCE SDN Company",
-        stage: "2019 - 2020",
+        title: "Full Stack Developer - Carnot, Japan",
+        stage: "2019/7 - 2021/11",
       },
     ],
   },
@@ -128,8 +124,8 @@ export const aboutData = [
     title: "education",
     info: [
       {
-        title: "Bachelor Degree in Information Technology (Ryukoku University, Jp)",
-        stage: "2014/04 – 2018/03",
+        title: "Bachelor Degree in Information Technology (Osaka Institute of Technology, Japan)",
+        stage: "2015/04 – 2019/03",
       },
     ],
   },
@@ -148,7 +144,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[370px]"
+        className="hidden xl:flex absolute bottom-0 -left-[170px]"
       >
         <Avatar />
       </motion.div>
@@ -172,7 +168,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-           Six years ago, I began freelancing as a blockchain and full stack developer. Since then, I've done remote work for companies, consulted for startups, and collaborated on digital products for both business and consumer use. Each project has been a unique story, weaving together the complexities of blockchain technology and full stack development to create magnificent designs. My journey is driven by the captivating narratives behind every project, transforming innovative ideas into impactful, functional, and visually stunning solutions.
+           Five years ago, I began freelancing as a blockchain and full stack developer. Since then, I've done remote work for companies, consulted for startups, and collaborated on digital products for both business and consumer use. Each project has been a unique story, weaving together the complexities of blockchain technology and full stack development to create magnificent designs. My journey is driven by the captivating narratives behind every project, transforming innovative ideas into impactful, functional, and visually stunning solutions.
           </motion.p>
 
           {/* counters */}
@@ -186,7 +182,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={6} duration={6} />
+                  <CountUp start={0} end={5} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience.
@@ -196,7 +192,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={110} duration={5} />
+                  <CountUp start={0} end={134} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients.
@@ -206,20 +202,10 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={203} duration={5} />
+                  <CountUp start={0} end={189} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects.
-                </div>
-              </div>
-
-              {/* awards */}
-              <div className="relative flex-1">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards.
                 </div>
               </div>
             </div>
