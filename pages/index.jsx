@@ -33,10 +33,13 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            A skilled developer with 6+ years of professional experience looking to contribute knowledge in web and
-blockchain technology. Proficient at performing well as working in a group or independently in a fast-paced
-setting. Deep understanding of distributed ledger, blockchain safety, blockchain design principles, and various
-blockchain protocols and environments.
+            Highly skilled Blockchain developer with over 5 years of experience. My expertise lies in executing
+            advanced blockchain projects, encompassing a wide range of areas such as ERC-20/ERC-721 tokenomics,
+            DAO frameworks, liquidity pools, staking, NFT platforms, ICOs, launchpads, and play-to-earn games.
+            Possess exceptional proficiency in Solidity and Python, actively contributing to the developer
+            community and prioritizing the meticulous and secure development of smart contracts.
+            Furthermore, my diverse background extends to the web field, enabling me to seamlessly integrate
+            the power of blockchain with web technologies for a comprehensive and multifaceted approach.
           </motion.p>
 
           {/* btn */}
@@ -73,7 +76,7 @@ blockchain protocols and environments.
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[860px] max-h-[678px] absolute bottom-0 lg:bottom-[150px] lg:right-[7%]"
         >
           <Avatar />
         </motion.div>

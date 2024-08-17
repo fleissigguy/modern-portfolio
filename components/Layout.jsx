@@ -19,16 +19,16 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-        <title>Super Dev | Portfolio</title>
+        <title>Suzuki Kenta</title>
         <meta
           name="description"
-          content="Super Dev is a Full-stack web developer with 6+ years of experience."
+          content="Suzuki Kenta is a Full-stack web developer with 6+ years of experience."
         />
         <meta
           name="keywords"
           content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect, vue, sass, nuxt, php, laravel, python, Django, C++, C#, react native, express, node, mongo DB, seinor, Frontend, backend, blockchain, web, devlopment, smart contract, DeFi, Dao, Wallet, Dex, Swap, stake, consensus, Pow, Pos, Solidity, solana, rust, web3, ethereum, NFT, ERC20, ERC721, contract, IOC, APY, swap, uniswap, transaction, trade, token, senior, developer, dev, best, top, full stack, wordpress, api,"
         />
-        <meta name="author" content="Super Dev" />
+        <meta name="author" content="Suzuki Kenta" />
         <meta name="theme-color" content="#f13024" />
       </Head>
 
