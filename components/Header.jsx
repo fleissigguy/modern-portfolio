@@ -11,7 +11,7 @@ const Header = () => {
           {/* logo */}
           <Link href="/">
             <h3 className="text-3xl">
-              Suzuki Kenta
+              Ono Saburo
             </h3>
           </Link>
 
