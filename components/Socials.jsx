@@ -1,50 +1,39 @@
 import Link from "next/link";
 
 import {
-  RiYoutubeLine,
-  RiInstagramLine,
-  RiFacebookLine,
-  RiDribbbleLine,
+  RiTelegramLine,
+  RiSkypeLine,
+  RiDiscordLine,
   RiGithubLine,
-  RiPinterestLine,
 } from "react-icons/ri";
 
 export const socialData = [
   {
-    name: "YouTube",
+    name: "Telegram",
     link: "https://youtube.com",
-    Icon: RiYoutubeLine,
+    Icon: RiTelegramLine,
   },
   {
-    name: "Instagram",
+    name: "Skype",
     link: "https://instagram.com",
-    Icon: RiInstagramLine,
+    Icon: RiSkypeLine,
   },
   {
-    name: "Facebook",
-    link: "https://facebook.com",
-    Icon: RiFacebookLine,
-  },
-  {
-    name: "Dribbble",
-    link: "https://dribbble.com",
-    Icon: RiDribbbleLine,
-  },
-  {
-    name: "Pinterest",
-    link: "https://pinterest.com",
-    Icon: RiPinterestLine,
+    name: "Discord",
+    link: "https://discord.com",
+    Icon: RiDiscordLine,
   },
   {
     name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
+    link: "https://github.com/fleissigguy",
     Icon: RiGithubLine,
   },
 ];
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg">
+    <>
+      <div className="flex items-center gap-x-5 text-lg">
       {socialData.map((social, i) => (
         <Link
           key={i}
@@ -63,6 +52,7 @@ const Socials = () => {
         </Link>
       ))}
     </div>
+    </>
   );
 };
 
